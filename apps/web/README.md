@@ -1,30 +1,34 @@
+This is a vanilla web app built with [Parcel](https://parceljs.org).
+
 ## Getting Started
 
-First, run the development server:
+Run the dev server:
 
 ```bash
-yarn dev
+yarn start
+# or
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+And open [localhost:1234](http://localhost:1234) in your browser!
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+As you make changes, you should see your app automatically update in the browser without even refreshing the page!
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+- [Getting started guide](https://parceljs.org/getting-started/webapp/)
+- [Documentation](https://parceljs.org/docs/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn/foundations/about-nextjs) - an interactive Next.js tutorial.
+## Deploy Your Own
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/parcel&template=parcel)
 
-## Deploy on Vercel
+_Live Example: https://parcel-template.vercel.app_
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_source=github.com&utm_medium=referral&utm_campaign=turborepo-readme) from the creators of Next.js.
+### Deploying From Your Terminal
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+You can deploy your new Parcel project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
+
+```shell
+$ vercel
+```
